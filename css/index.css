@@ -1,0 +1,36 @@
+
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Quicksand Regular'), local('Quicksand-Regular'), url(../fonts/Quicksand.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+1EA0-1EF9, U+20AB;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    color: #606060;
+  }
+
+.navbar {
+  bottom: 45px;
+  left: 0px;
+  height: 5px;
+  width:100%;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  overflow: auto;
+  background: #ff99ff; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-90deg, #ff99ff, #01ffff); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, #ff99ff, #01ffff); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, #ff99ff, #01ffff); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, #ff99ff, #01ffff); /* Standard syntax */
+}
+
+.header {position: absolute; bottom: 12px; left: 20px; color: #606060}
+
+.splash{
+  text-align: center;
+  margin-top: 20%;
+}
